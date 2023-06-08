@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beslandia:blocks/orchium_ore",
+    "up": "beslandia:blocks/orchium_ore",
+    "north": "beslandia:blocks/orchium_ore",
+    "east": "beslandia:blocks/orchium_ore",
+    "south": "beslandia:blocks/orchium_ore",
+    "west": "beslandia:blocks/orchium_ore",
+    "particle": "beslandia:blocks/orchium_ore"
+  },
+  "render_type": "solid"
+}

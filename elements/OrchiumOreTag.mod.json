@@ -1,0 +1,18 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:OrchiumOre"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "orchium_ore",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 9,
+    "group": "orchium_ingot",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:orchium_block"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OrchiumIngot"
+    },
+    "name": "orchium_ingot_from_crafting_orichium_block",
+    "namespace": "mod"
+  }
+}

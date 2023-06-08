@@ -1,0 +1,10 @@
+{
+  "group": "orchium_tear",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "tag": "forge:orchium_ore"
+  },
+  "result": "beslandia:orchium_tear"
+}

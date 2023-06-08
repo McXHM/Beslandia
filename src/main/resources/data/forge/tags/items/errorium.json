@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "beslandia:errorium_ore",
+    "beslandia:raw_errorium",
+    "beslandia:errorium_pickaxe",
+    "beslandia:errorium_block",
+    "beslandia:errorium_ingot"
+  ]
+}

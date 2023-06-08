@@ -1,0 +1,30 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ErroriumOre"
+      },
+      {
+        "value": "CUSTOM:ErroriumBlock"
+      },
+      {
+        "value": "CUSTOM:RawErrorium"
+      },
+      {
+        "value": "CUSTOM:ErroriumIngot"
+      },
+      {
+        "value": "CUSTOM:ErroriumPickaxe"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "errorium",
+    "namespace": "forge"
+  }
+}

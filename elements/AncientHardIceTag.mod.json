@@ -1,0 +1,22 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:AncientHardIce"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:AncientHardIce"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "ancient_hard_ice",
+    "namespace": "forge"
+  }
+}

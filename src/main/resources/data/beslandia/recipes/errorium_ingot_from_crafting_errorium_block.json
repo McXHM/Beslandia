@@ -1,0 +1,16 @@
+{
+  "group": "errorium_ingot",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:errorium_block"
+    }
+  },
+  "result": {
+    "item": "beslandia:errorium_ingot",
+    "count": 9
+  }
+}

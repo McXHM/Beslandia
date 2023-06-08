@@ -1,0 +1,10 @@
+{
+  "group": "errorium_ingot",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "tag": "forge:errorium_ore"
+  },
+  "result": "beslandia:errorium_ingot"
+}

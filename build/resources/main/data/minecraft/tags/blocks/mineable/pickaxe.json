@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "beslandia:errorium_block",
+    "beslandia:errorium_ore",
+    "beslandia:orchium_ore",
+    "beslandia:orchium_block",
+    "beslandia:ancient_hard_ice"
+  ]
+}

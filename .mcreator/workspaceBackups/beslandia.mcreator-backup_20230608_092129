@@ -1,0 +1,724 @@
+{
+  "mod_elements": [
+    {
+      "name": "ErroriumOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beslandia/world/features/ores/ErroriumOreFeature.java",
+          "src/main/resources/assets/beslandia/models/item/errorium_ore.json",
+          "src/main/resources/assets/beslandia/blockstates/errorium_ore.json",
+          "src/main/resources/assets/beslandia/models/block/errorium_ore.json",
+          "src/main/resources/data/beslandia/forge/biome_modifier/errorium_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/beslandia/block/ErroriumOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beslandia/models/item/errorium_block.json",
+          "src/main/resources/assets/beslandia/blockstates/errorium_block.json",
+          "src/main/resources/assets/beslandia/models/block/errorium_block.json",
+          "src/main/java/net/mcreator/beslandia/block/ErroriumBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumOre",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beslandia/blockstates/orchium_ore.json",
+          "src/main/resources/assets/beslandia/models/block/orchium_ore.json",
+          "src/main/resources/assets/beslandia/models/item/orchium_ore.json",
+          "src/main/java/net/mcreator/beslandia/block/OrchiumOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumBlock",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beslandia/models/block/orchium_block.json",
+          "src/main/java/net/mcreator/beslandia/block/OrchiumBlockBlock.java",
+          "src/main/resources/assets/beslandia/blockstates/orchium_block.json",
+          "src/main/resources/assets/beslandia/models/item/orchium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BeslandiaCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beslandia_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RawErrorium",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_errorium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beslandia/item/RawErroriumItem.java",
+          "src/main/resources/assets/beslandia/models/item/raw_errorium.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumIngot",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beslandia/models/item/errorium_ingot.json",
+          "src/main/java/net/mcreator/beslandia/item/ErroriumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beslandia/models/item/errorium_pickaxe.json",
+          "src/main/java/net/mcreator/beslandia/item/ErroriumPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumOreBreakEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_ore_break_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beslandia/procedures/ErroriumOreBreakEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OrchiumIngot",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beslandia/item/OrchiumIngotItem.java",
+          "src/main/resources/assets/beslandia/models/item/orchium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumTag",
+      "type": "tag",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/orchium.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumIngotTag",
+      "type": "tag",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_ingot_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/orchium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumBlockFromCraftingOrchiumIngot",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_block_from_crafting_orchium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beslandia/recipes/orchium_block_from_crafting_orchium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumIngotFromCraftingOrichiumBlock",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_ingot_from_crafting_orichium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beslandia/recipes/orchium_ingot_from_crafting_orichium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumIngotTag",
+      "type": "tag",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_ingot_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/errorium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumPickaxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beslandia/item/OrchiumPickaxeItem.java",
+          "src/main/resources/assets/beslandia/models/item/orchium_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumPickaxeTag",
+      "type": "tag",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_pickaxe_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/errorium_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumPickaxeTag",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_pickaxe_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/orchium_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumBlockTag",
+      "type": "tag",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/errorium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumBlockFromCraftingErroriumIngot",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_block_from_crafting_errorium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beslandia/recipes/errorium_block_from_crafting_errorium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumIngotFromCraftingErroriumBlock",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_ingot_from_crafting_errorium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beslandia/recipes/errorium_ingot_from_crafting_errorium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumIngotFromSmeltingErroriumOre",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_ingot_from_smelting_errorium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beslandia/recipes/errorium_ingot_from_smelting_errorium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumIngotFromBlastingErroriumOre",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_ingot_from_blasting_errorium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beslandia/recipes/errorium_ingot_from_blasting_errorium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RawErroriumTag",
+      "type": "tag",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_errorium_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/raw_errorium.json"
+        ]
+      }
+    },
+    {
+      "name": "Errorium",
+      "type": "tag",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/errorium.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumIngotFromSmeltingRawErrorium",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_ingot_from_smelting_raw_errorium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beslandia/recipes/errorium_ingot_from_smelting_raw_errorium.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumIngotFromBlastingRawErrorium",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_ingot_from_blasting_raw_errorium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beslandia/recipes/errorium_ingot_from_blasting_raw_errorium.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumTear",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_tear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beslandia/models/item/orchium_tear.json",
+          "src/main/java/net/mcreator/beslandia/item/OrchiumTearItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumTearFromSmeltingOrchiumOre",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_tear_from_smelting_orchium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beslandia/recipes/orchium_tear_from_smelting_orchium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumTearTag",
+      "type": "tag",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_tear_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/orchium_tear.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumTearFromBlastingOrchiumOre",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_tear_from_blasting_orchium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beslandia/recipes/orchium_tear_from_blasting_orchium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumBlockTag",
+      "type": "tag",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/orchium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumBlockItemTag",
+      "type": "tag",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_block_item_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/orchium_block_item.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumBlockItemTag",
+      "type": "tag",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_block_item_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/errorium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumOreTag",
+      "type": "tag",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_ore_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/errorium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ErroriumOreItemTag",
+      "type": "tag",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorium_ore_item_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/errorium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumOreTag",
+      "type": "tag",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_ore_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/orchium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumOreItemTag",
+      "type": "tag",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_ore_item_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/orchium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumIngotFromSmithingNetheriteIngotAndOrchiumIngot",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_ingot_from_smithing_netherite_ingot_and_orchium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beslandia/recipes/orchium_ingot_from_smithing_netherite_ingot_and_orchium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumAxe",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beslandia/item/OrchiumAxeItem.java",
+          "src/main/resources/assets/beslandia/models/item/orchium_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumAxeTag",
+      "type": "tag",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_axe_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/orchium_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumShovel",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beslandia/item/OrchiumShovelItem.java",
+          "src/main/resources/assets/beslandia/models/item/orchium_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumShovelTag",
+      "type": "tag",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_shovel_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/orchium_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumSword",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/beslandia/item/OrchiumSwordItem.java",
+          "src/main/resources/assets/beslandia/models/item/orchium_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumSwordTag",
+      "type": "tag",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_sword_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/orchium_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "OrchiumAdv",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orchium_adv",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/beslandia/advancements/orchium_adv.json"
+        ]
+      }
+    },
+    {
+      "name": "PolarIce",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polar_ice",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/beslandia/models/item/polar_ice.json",
+          "src/main/resources/assets/beslandia/models/block/polar_ice.json",
+          "src/main/java/net/mcreator/beslandia/block/PolarIceBlock.java",
+          "src/main/resources/data/beslandia/forge/biome_modifier/polar_ice_biome_modifier.json",
+          "src/main/resources/assets/beslandia/blockstates/polar_ice.json",
+          "src/main/java/net/mcreator/beslandia/world/features/ores/PolarIceFeature.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.beslandia.errorium_ore": "Errorium Ore",
+      "advancements.orchium_adv.descr": "Find a orchium ore",
+      "item.beslandia.raw_errorium": "Raw Errorium",
+      "item.beslandia.orchium_shovel": "Orchium Shovel",
+      "block.beslandia.polar_ice": "Polar Ice",
+      "item.beslandia.orchium_ingot": "Orchium Ingot",
+      "item.beslandia.orchium_axe": "Orchium Axe",
+      "item.beslandia.orchium_sword": "Orchium Sword",
+      "itemGroup.tabbeslandia_creative_tab": "Beslandia Creative Tab",
+      "item.beslandia.errorium_ingot": "Errorium Ingot",
+      "block.beslandia.orchium_block": "Orchium Block",
+      "advancements.orchium_adv.title": "Diamond inlaid stone ?",
+      "item.beslandia.errorium_pickaxe": "Errorium Pickaxe",
+      "block.beslandia.orchium_ore": "Orchium Ore",
+      "item.beslandia.orchium_tear": "Orchium Tear",
+      "item.beslandia.orchium_pickaxe": "Orchium Pickaxe",
+      "block.beslandia.errorium_block": "Errorium Block"
+    },
+    "zh_cn": {
+      "block.beslandia.errorium_ore": "错误原矿",
+      "advancements.orchium_adv.descr": "找到一块幽兰原矿",
+      "item.beslandia.raw_errorium": "粗错误",
+      "item.beslandia.orchium_shovel": "幽兰合金镐",
+      "block.beslandia.polar_ice": "Polar Ice",
+      "item.beslandia.orchium_ingot": "幽兰合金锭",
+      "item.beslandia.orchium_axe": "幽兰合金斧",
+      "item.beslandia.orchium_sword": "幽兰合金剑",
+      "itemGroup.tabbeslandia_creative_tab": "Beslandia",
+      "item.beslandia.errorium_ingot": "错误锭",
+      "block.beslandia.orchium_block": "幽兰合金块",
+      "advancements.orchium_adv.title": "镶钻石头？",
+      "item.beslandia.errorium_pickaxe": "错误镐",
+      "block.beslandia.orchium_ore": "幽兰原矿",
+      "item.beslandia.orchium_tear": "幽兰之泪",
+      "item.beslandia.orchium_pickaxe": "幽兰合金镐",
+      "block.beslandia.errorium_block": "错误块"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "beslandia",
+    "modName": "Beslandia",
+    "version": "1.0.0",
+    "author": "Admin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.beslandia",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

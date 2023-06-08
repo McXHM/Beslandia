@@ -1,0 +1,39 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:OrchiumOre"
+      },
+      {
+        "value": "CUSTOM:OrchiumBlock"
+      },
+      {
+        "value": "CUSTOM:OrchiumIngot"
+      },
+      {
+        "value": "CUSTOM:OrchiumPickaxe"
+      },
+      {
+        "value": "CUSTOM:OrchiumTear"
+      },
+      {
+        "value": "CUSTOM:OrchiumAxe"
+      },
+      {
+        "value": "CUSTOM:OrchiumShovel"
+      },
+      {
+        "value": "CUSTOM:OrchiumSword"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "orchium",
+    "namespace": "forge"
+  }
+}

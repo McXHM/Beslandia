@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beslandia:blocks/errorium_block",
+    "up": "beslandia:blocks/errorium_block",
+    "north": "beslandia:blocks/errorium_block",
+    "east": "beslandia:blocks/errorium_block",
+    "south": "beslandia:blocks/errorium_block",
+    "west": "beslandia:blocks/errorium_block",
+    "particle": "beslandia:blocks/errorium_block"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "addition": {
+    "tag": "forge:orchium_tear"
+  },
+  "result": {
+    "item": "beslandia:orchium_ingot"
+  }
+}

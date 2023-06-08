@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "beslandia:orchium_sword",
+    "beslandia:orchium_block",
+    "beslandia:orchium_axe",
+    "beslandia:orchium_ore",
+    "beslandia:orchium_ingot",
+    "beslandia:orchium_tear",
+    "beslandia:orchium_pickaxe",
+    "beslandia:orchium_shovel"
+  ]
+}

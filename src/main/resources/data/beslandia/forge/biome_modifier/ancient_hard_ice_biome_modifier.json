@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "beslandia:ancient_hard_ice",
+  "step": "underground_ores"
+}

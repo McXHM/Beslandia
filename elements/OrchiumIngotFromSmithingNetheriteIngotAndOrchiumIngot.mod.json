@@ -1,0 +1,23 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "orchium_ingot",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.NETHERITE_INGOT"
+    },
+    "smithingInputAdditionStack": {
+      "value": "TAG:forge:orchium_tear"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:OrchiumIngot"
+    },
+    "name": "orchium_ingot_from_smithing_netherite_ingot_and_orchium_ingot",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:ErroriumBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "errorium_block",
+    "namespace": "forge"
+  }
+}

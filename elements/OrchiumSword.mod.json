@@ -1,0 +1,31 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "orchium_sword",
+    "customModelName": "Normal",
+    "name": "Orchium Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BeslandiaCreativeTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 4.0,
+    "attackSpeed": 1.6,
+    "enchantability": 15,
+    "damageVsEntity": 10.0,
+    "usageCount": 4096,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:OrchiumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

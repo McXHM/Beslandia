@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "orchium_axe",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:orchium_ingot"
+      },
+      {
+        "value": "TAG:forge:ancient_hard_ice"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:ancient_hard_ice"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OrchiumAxe"
+    },
+    "name": "orchium_axe_from_crafting",
+    "namespace": "mod"
+  }
+}

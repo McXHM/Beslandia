@@ -1,0 +1,30 @@
+{
+  "group": "orchium_axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:orchium_ingot"
+    },
+    "1": {
+      "tag": "forge:ancient_hard_ice"
+    },
+    "2": {
+      "tag": "forge:ancient_hard_ice"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "beslandia:orchium_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beslandia:blocks/polar_ice",
+    "up": "beslandia:blocks/polar_ice",
+    "north": "beslandia:blocks/polar_ice",
+    "east": "beslandia:blocks/polar_ice",
+    "south": "beslandia:blocks/polar_ice",
+    "west": "beslandia:blocks/polar_ice",
+    "particle": "beslandia:blocks/polar_ice"
+  },
+  "render_type": "solid"
+}

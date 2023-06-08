@@ -1,0 +1,13 @@
+{
+  "group": "orchium_ingot",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:orchium_block"
+    }
+  ],
+  "result": {
+    "item": "beslandia:orchium_ingot",
+    "count": 9
+  }
+}
