@@ -4,7 +4,10 @@
     "beslandia:errorium_ore",
     "beslandia:raw_errorium",
     "beslandia:errorium_pickaxe",
+    "beslandia:errorium_sword",
+    "beslandia:errorium_shovel",
     "beslandia:errorium_block",
-    "beslandia:errorium_ingot"
+    "beslandia:errorium_ingot",
+    "beslandia:errorium_axe"
   ]
 }

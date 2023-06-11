@@ -1,0 +1,36 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:MagoldiumOre"
+      },
+      {
+        "value": "CUSTOM:MagoldiumIngot"
+      },
+      {
+        "value": "CUSTOM:MagoldiumSword"
+      },
+      {
+        "value": "CUSTOM:MagoldiumPickaxe"
+      },
+      {
+        "value": "CUSTOM:MagoldiumAxe"
+      },
+      {
+        "value": "CUSTOM:MagoldiumShovel"
+      },
+      {
+        "value": "CUSTOM:MagoldiumBlock"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "magoldium",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "magoldium_ingot",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:magoldium_block"
+    }
+  ],
+  "result": {
+    "item": "beslandia:magoldium_ingot",
+    "count": 9
+  }
+}

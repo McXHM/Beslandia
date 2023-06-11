@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beslandia:blocks/magoldium_ore",
+    "up": "beslandia:blocks/magoldium_ore",
+    "north": "beslandia:blocks/magoldium_ore",
+    "east": "beslandia:blocks/magoldium_ore",
+    "south": "beslandia:blocks/magoldium_ore",
+    "west": "beslandia:blocks/magoldium_ore",
+    "particle": "beslandia:blocks/magoldium_ore"
+  },
+  "render_type": "solid"
+}

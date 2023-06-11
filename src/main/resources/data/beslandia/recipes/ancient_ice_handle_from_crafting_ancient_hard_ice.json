@@ -1,0 +1,24 @@
+{
+  "group": "ancient_ice_handle",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "tag": "forge:ancient_hard_ice"
+    },
+    "4": {
+      "tag": "forge:ancient_hard_ice"
+    },
+    "6": {
+      "tag": "forge:ancient_hard_ice"
+    }
+  },
+  "result": {
+    "item": "beslandia:ancient_ice_handle",
+    "count": 1
+  }
+}

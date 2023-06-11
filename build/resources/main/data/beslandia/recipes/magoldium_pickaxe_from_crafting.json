@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:magoldium_ingot"
+    },
+    "1": {
+      "tag": "forge:orchium_tear"
+    },
+    "2": {
+      "tag": "forge:magoldium_ingot"
+    },
+    "4": {
+      "tag": "forge:fire_resistant_handle"
+    },
+    "7": {
+      "tag": "forge:fire_resistant_handle"
+    }
+  },
+  "result": {
+    "item": "beslandia:magoldium_pickaxe",
+    "count": 1
+  }
+}

@@ -23,7 +23,7 @@ import java.util.Collections;
 
 public class ErroriumOreBlock extends Block {
 	public ErroriumOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(100f, 10000f).requiresCorrectToolForDrops());
 	}
 
 	@Override

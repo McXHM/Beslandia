@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "magoldium_ingot",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "TAG:forge:magoldium_ore"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:MagoldiumIngot"
+    },
+    "name": "magoldium_ingot_from_blasting_magoldium_ore",
+    "namespace": "mod"
+  }
+}

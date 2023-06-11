@@ -35,8 +35,8 @@
     ],
     "name": "Errorium Ore",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 100.0,
+    "resistance": 10000.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {

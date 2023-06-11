@@ -1,0 +1,24 @@
+{
+  "group": "magoldium_shovel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:magoldium_ingot"
+    },
+    "1": {
+      "tag": "forge:orchium_tear"
+    },
+    "2": {
+      "tag": "forge:fire_resistant_handle"
+    }
+  },
+  "result": {
+    "item": "beslandia:magoldium_shovel",
+    "count": 1
+  }
+}

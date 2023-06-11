@@ -36,6 +36,6 @@ public class OrchiumSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(BeslandiaModItems.ORCHIUM_INGOT.get()));
 			}
-		}, 3, -2.4f, new Item.Properties().tab(BeslandiaModTabs.TAB_BESLANDIA_CREATIVE_TAB));
+		}, 3, -2.4f, new Item.Properties().tab(BeslandiaModTabs.TAB_BESLANDIA_CREATIVE_TAB).fireResistant());
 	}
 }

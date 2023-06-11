@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "ancient_ice_handle",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:ancient_hard_ice"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:ancient_hard_ice"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:ancient_hard_ice"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AncientIceHandle"
+    },
+    "name": "ancient_ice_handle_from_crafting_ancient_hard_ice",
+    "namespace": "mod"
+  }
+}

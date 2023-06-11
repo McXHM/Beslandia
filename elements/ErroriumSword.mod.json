@@ -1,0 +1,31 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "errorium_sword",
+    "customModelName": "Normal",
+    "name": "Errorium Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BeslandiaCreativeTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 7,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 15,
+    "damageVsEntity": 25.0,
+    "usageCount": 32767,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ErroriumIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "beslandia:ancient_ice_handle"
+    },
+    "title": {
+      "translate": "advancements.ancient_ice_handle_adv.title"
+    },
+    "description": {
+      "translate": "advancements.ancient_ice_handle_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "ancient_ice_handle_adv": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "beslandia:ancient_ice_handle"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "beslandia:orchium_sword_from_crafting",
+      "beslandia:orchium_axe_from_crafting",
+      "beslandia:orchium_shovel_from_crafting",
+      "beslandia:orchium_pickaxe_from_crafting"
+    ]
+  },
+  "parent": "beslandia:ancient_ice_adv"
+}

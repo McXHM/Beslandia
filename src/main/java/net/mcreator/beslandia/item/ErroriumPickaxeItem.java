@@ -14,11 +14,11 @@ public class ErroriumPickaxeItem extends PickaxeItem {
 	public ErroriumPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 32767;
 			}
 
 			public float getSpeed() {
-				return 64f;
+				return 32f;
 			}
 
 			public float getAttackDamageBonus() {

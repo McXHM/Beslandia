@@ -1,0 +1,30 @@
+{
+  "group": "errorium_pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:errorium_ingot"
+    },
+    "1": {
+      "tag": "forge:errorium_ingot"
+    },
+    "2": {
+      "tag": "forge:errorium_ingot"
+    },
+    "4": {
+      "tag": "forge:magoldium_ingot"
+    },
+    "7": {
+      "tag": "forge:magoldium_ingot"
+    }
+  },
+  "result": {
+    "item": "beslandia:errorium_pickaxe",
+    "count": 1
+  }
+}

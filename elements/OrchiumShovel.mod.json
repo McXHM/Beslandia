@@ -8,7 +8,7 @@
     "name": "Orchium Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:BeslandiaCreativeTab"
     },
     "toolType": "Spade",
     "harvestLevel": 5,
@@ -24,7 +24,7 @@
         "value": "CUSTOM:OrchiumIngot"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

@@ -18,6 +18,15 @@
       },
       {
         "value": "CUSTOM:ErroriumPickaxe"
+      },
+      {
+        "value": "CUSTOM:ErroriumSword"
+      },
+      {
+        "value": "CUSTOM:ErroriumShovel"
+      },
+      {
+        "value": "CUSTOM:ErroriumAxe"
       }
     ],
     "blocks": [],

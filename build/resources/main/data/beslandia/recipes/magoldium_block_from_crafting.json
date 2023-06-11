@@ -1,0 +1,42 @@
+{
+  "group": "magoldium_block",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:magoldium_ingot"
+    },
+    "1": {
+      "tag": "forge:magoldium_ingot"
+    },
+    "2": {
+      "tag": "forge:magoldium_ingot"
+    },
+    "3": {
+      "tag": "forge:magoldium_ingot"
+    },
+    "4": {
+      "tag": "forge:magoldium_ingot"
+    },
+    "5": {
+      "tag": "forge:magoldium_ingot"
+    },
+    "6": {
+      "tag": "forge:magoldium_ingot"
+    },
+    "7": {
+      "tag": "forge:magoldium_ingot"
+    },
+    "8": {
+      "tag": "forge:magoldium_ingot"
+    }
+  },
+  "result": {
+    "item": "beslandia:magoldium_block",
+    "count": 1
+  }
+}

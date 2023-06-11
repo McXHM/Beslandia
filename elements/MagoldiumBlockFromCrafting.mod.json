@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "magoldium_block",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      },
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      },
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      },
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      },
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      },
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      },
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      },
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      },
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagoldiumBlock"
+    },
+    "name": "magoldium_block_from_crafting",
+    "namespace": "mod"
+  }
+}

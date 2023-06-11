@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "beslandia:blocks/magoldium_block",
+    "up": "beslandia:blocks/magoldium_block",
+    "north": "beslandia:blocks/magoldium_block",
+    "east": "beslandia:blocks/magoldium_block",
+    "south": "beslandia:blocks/magoldium_block",
+    "west": "beslandia:blocks/magoldium_block",
+    "particle": "beslandia:blocks/magoldium_block"
+  },
+  "render_type": "solid"
+}

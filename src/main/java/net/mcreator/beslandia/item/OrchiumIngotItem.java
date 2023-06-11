@@ -8,6 +8,6 @@ import net.mcreator.beslandia.init.BeslandiaModTabs;
 
 public class OrchiumIngotItem extends Item {
 	public OrchiumIngotItem() {
-		super(new Item.Properties().tab(BeslandiaModTabs.TAB_BESLANDIA_CREATIVE_TAB).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(BeslandiaModTabs.TAB_BESLANDIA_CREATIVE_TAB).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
 	}
 }

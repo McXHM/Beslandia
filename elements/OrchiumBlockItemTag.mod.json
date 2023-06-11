@@ -12,7 +12,7 @@
     "functions": [],
     "entities": [],
     "biomes": [],
-    "name": "orchium_block_item",
+    "name": "orchium_block",
     "namespace": "forge"
   }
 }

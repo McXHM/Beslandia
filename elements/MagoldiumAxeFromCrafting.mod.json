@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "magoldium_axe",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      },
+      {
+        "value": "TAG:forge:orchium_tear"
+      },
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      },
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      },
+      {
+        "value": "TAG:forge:fire_resistant_handle"
+      },
+      {
+        "value": "TAG:forge:magoldium_ingot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "TAG:forge:fire_resistant_handle"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MagoldiumAxe"
+    },
+    "name": "magoldium_axe_from_crafting",
+    "namespace": "mod"
+  }
+}

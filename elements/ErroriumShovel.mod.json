@@ -1,0 +1,31 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "errorium_shovel",
+    "customModelName": "Normal",
+    "name": "Errorium Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BeslandiaCreativeTab"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 7,
+    "efficiency": 32.0,
+    "attackSpeed": 1.5,
+    "enchantability": 15,
+    "damageVsEntity": 15.0,
+    "usageCount": 32767,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:ErroriumIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

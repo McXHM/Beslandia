@@ -1,0 +1,24 @@
+{
+  "group": "errorium_sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:errorium_ingot"
+    },
+    "1": {
+      "tag": "forge:errorium_ingot"
+    },
+    "2": {
+      "tag": "forge:magoldium_ingot"
+    }
+  },
+  "result": {
+    "item": "beslandia:errorium_sword",
+    "count": 1
+  }
+}

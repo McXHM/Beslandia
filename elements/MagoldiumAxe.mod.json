@@ -1,0 +1,31 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "magoldium_axe",
+    "customModelName": "Normal",
+    "name": "Magoldium Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:BeslandiaCreativeTab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 6,
+    "efficiency": 25.0,
+    "attackSpeed": 1.4,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 8192,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:MagoldiumIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

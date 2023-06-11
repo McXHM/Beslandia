@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "beslandia:magoldium_ingot",
+    "beslandia:magoldium_shovel",
+    "beslandia:magoldium_ore",
+    "beslandia:magoldium_axe",
+    "beslandia:magoldium_block",
+    "beslandia:magoldium_sword",
+    "beslandia:magoldium_pickaxe"
+  ]
+}

@@ -36,6 +36,6 @@ public class OrchiumPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(BeslandiaModItems.ORCHIUM_INGOT.get()));
 			}
-		}, 1, -2.5f, new Item.Properties().tab(BeslandiaModTabs.TAB_BESLANDIA_CREATIVE_TAB));
+		}, 1, -2.5f, new Item.Properties().tab(BeslandiaModTabs.TAB_BESLANDIA_CREATIVE_TAB).fireResistant());
 	}
 }
